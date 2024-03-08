@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Tolltips</title>
+</head>
+
+<body class="bg-light">
+    <!-- *** Important ***
+    To display the tooltip of a class of buttons and code,
+    pay attention to the bottom of the page -->
+
+    <div class="container-md justify-content-around d-flex mx-auto mt-5">
+        <!-- data-bs-toggle = Type selection for Toltip -->
+        <!-- data-bs-placement = For which side of the element to display -->
+        <!-- data-bs-title = Toltype text -->
+        <button type="button" class="tt btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top"
+            data-bs-title="Tooltip on top">
+            Tooltip on top
+        </button>
+        <button type="button" class="tt btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right"
+            data-bs-title="Tooltip on right">
+            Tooltip on right
+        </button>
+        <button type="button" class="tt btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom"
+            data-bs-title="Tooltip on bottom">
+            Tooltip on bottom
+        </button>
+        <button type="button" class="tt btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Tooltip on left">
+            Tooltip on left
+        </button>
+        <!--  -->
+        <button type="button" class="tt btn btn-secondary" data-bs-toggle="tooltip" data-bs-html="true"
+            data-bs-title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+            Tooltip with HTML
+        </button>
+    </div>
+
+
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <!-- To display the tooltip, import with the js link below is selected -->
+    <script src="../bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const tooltips = document.querySelectorAll('.tt')
+        tooltips.forEach(t => {
+            new bootstrap.Tooltip(t)
+        })
+    </script>
+    <script src="../app.js"></script>
+</body>
+
+</html>
