@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Icons</title>
+</head>
+
+<body class="bg-light">
+
+
+    <div class="container-md mx-auto justify-content-center w-25">
+        <form>
+            <label for="Name" class="ms-1">Name:</label>
+            <div class="input-group input-group-sm">
+                <span class="input-group-text">@</span>
+                <input type="text" id="Name" placeholder="Mehrdad" class="form-control">
+            </div>
+
+            <label for="email" class="ms-1">Email:</label>
+            <input type="text" id="email" placeholder="mehrdadjokri13@gmail.com" class="form-control mb-2">
+
+            <div class="form-floating mb-2">
+                <textarea class="form-control" id="query" style="max-height: 140px; min-height: 140px;"
+                    placeholder="query"></textarea>
+                <label for="query">Query</label>
+            </div>
+
+            <div class="mb-2  input-group">
+                <span class="input-group-text">With textarea</span>
+                <textarea class="form-control" id="query" style="max-height: 140px; min-height: 140px;"></textarea>
+            </div>
+            <!--  -->
+            <label for="subject" class="form-label">what is your...?</label>
+            <select class="form-select mb-2" id="subject">
+                <option value="book" selected>Book Query</option>
+                <option value="pen">Pen Query</option>
+                <option value="student">Student Query</option>
+            </select>
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="mehrdad">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" placeholder="ir">
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" placeholder="info">
+                <span class="input-group-text">@</span>
+            </div>
+
+            <div class="text-center mb-4">
+                <button type="submit" class="btn btn-secondary">Submit</button>
+            </div>
+        </form>
+
+        <hr>
+
+        <form class="border p-3">
+            <label for="Name" class="ms-1">Small</label>
+            <div class="input-group input-group-sm">
+                <span class="input-group-text">@</span>
+                <input type="text" id="Name" placeholder="Mehrdad" class="form-control">
+            </div>
+
+            <label for="Name" class="ms-1">Normal</label>
+            <div class="input-group">
+                <span class="input-group-text">@</span>
+                <input type="text" id="Name" placeholder="Mehrdad" class="form-control">
+            </div>
+
+            <label for="Name" class="ms-1">Large</label>
+            <div class="input-group input-group-lg">
+                <span class="input-group-text">@</span>
+                <input type="text" id="Name" placeholder="Mehrdad" class="form-control">
+            </div>
+        </form>
+    </div>
+
+
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+
+    <script src="../bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+    <script src="../app.js"></script>
+</body>
+
+</html>
