@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Grid Layout</title>
+</head>
+
+<body>
+    <!-- basic grid -->
+    <div class="container-lg my-5">
+        <h2>basic grid</h2>
+        <div class="row">
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 4</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- colmn widths -->
+    <div class="container-lg my-5">
+        <h2>colmn widths</h2>
+        <div class="row">
+            <div class="col-6">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- responsive column width -->
+    <div class="container-lg my-5">
+        <h2>responsive column width</h2>
+        <div class="row">
+            <div class="col-sm-4 col-lg-6">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- justifying columns -->
+    <div class="container-lg my-5">
+        <h2>responsive column width</h2>
+        <div class="row justify-content-between">
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- responsive page -->
+    <div class="container-lg mt-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 text-center text-md-start">
+                <h1>
+                    <div class="display-2">mehrdad jokari</div>
+                    <div class="display-5 text-muted">web dev and web designer</div>
+                </h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eveniet odit delectus
+                    deleniti!</p>
+                <a href="#" class="btn btn-primary btn-lg">Buy Now!</a>
+            </div>
+            <div class="col-md-5 text-center d-none d-md-block">
+                <img src="../images/images (1).jpg" class="img-fluid" alt="note">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="text-center text-info">justify-content-center</h3>
+        <div class="row border justify-content-center">
+            <div class="col-2 py-5 m-5 text-center text-bg-primary">
+                1
+            </div>
+            <div class="col-2 py-5 m-5 text-center text-bg-primary">
+                2
+            </div>
+            <div class="col-2 py-5 m-5 text-center text-bg-primary">
+                3
+            </div>
+        </div>
+        <h3 class="text-stert text-info">justify-content-start</h3>
+        <div class="row border justify-content-start">
+            <div class="col-2 py-5 m-5 text-center text-bg-primary">
+                1
+            </div>
+            <div class="col-2 py-5 m-5 text-center text-bg-primary">
+                2
+            </div>
+            <div class="col-2 py-5 m-5 text-center text-bg-primary">
+                3
+            </div>
+        </div>
+        <h3 class="text-end text-info">justify-content-end</h3>
+        <div class="row border justify-content-end">
+            <div class="col-2 py-5 m-5 text-center text-bg-primary">
+                1
+            </div>
+            <div class="col-2 py-5 m-5 text-center text-bg-primary">
+                2
+            </div>
+            <div class="col-2 py-5 m-5 text-center text-bg-primary">
+                3
+            </div>
+        </div>
+        <h3 class="text-center text-info">justify-content-between</h3>
+        <div class="row border justify-content-between">
+            <div class="col-2 py-5 m-5 text-center text-bg-primary">
+                1
+            </div>
+            <div class="col-2 py-5 m-5 text-center text-bg-primary">
+                2
+            </div>
+            <div class="col-2 py-5 m-5 text-center text-bg-primary">
+                3
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script src="bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
