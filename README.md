@@ -4,4 +4,4 @@
 ** When you want to use the style of an element, right click on that element and go to the Inspect section and copy the desired element class and use it in your project **
 ## Designer and developer
 - Developer: Mehrdad Jokari
-- email : mehrdadjokari13@gmail.com
+- Email : mehrdadjokari13@gmail.com
